@@ -1,8 +1,8 @@
 #include <badUSB.h>
 
-PROGMEM char payload[] = "Enter your powershell payload here!! ";
-PROGMEM char powershell[] = "powershell";
-PROGMEM char cmd[] = "cmd";
+char payload[] PROGMEM = "Enter your powershell payload here!! ";
+char powershell[] PROGMEM = "powershell";
+char cmd[] PROGMEM = "cmd";
 
 void setup()
 {
